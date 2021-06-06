@@ -39,7 +39,7 @@ jobs:
     <<: *build_definition
     docker:
       - image: ruby:2.3
-
+  
 workflows:
   version: 2
   build_ruby_versions:
